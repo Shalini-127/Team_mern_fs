@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('ii.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  margin-top: 30px;
+  background-color:white(0, 0, 0, 0.7);
+  border-radius: 5px; 
+}
+
+h1 {
+  text-align: center;
+  color: azure;
+}
+h2{
+  text-align: center;
+  color: rgb(5, 9, 247);
+}
+
+
+form {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+input[type="text"],
+
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  border: none;
+  padding: 8px 10px 8px 10px;
+  font-size: large;
+  
+}
+textarea{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  padding: 8px 10px 8px 10px;
+  font-size: large;
+  
+}
+ul {
+  list-style: none;
+  padding: 0;
+ 
+}
+
+li {
+  border: 2px solid #ccc;
+  padding: 10px;
+  padding-bottom: 130px;
+   margin-top: 50px;
+  color: azure;
+  font-weight: 500;
+}
+.delete1{
+  background-color:#ff6666 ;
+}
+button {
+  background-color: plum;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  font-weight: 600;
+  font-size: large;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  cursor: pointer;
+  float: right;
+  margin-left: 20%;
+}
+
+button:hover {
+  background-color: #ff6666; 
+}
+
+
+.addstock{
+  margin-bottom: 20px;
+}
+.one {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  margin-top: 30px;
+  background-color:white(0, 0, 0, 0.7);
+  border-radius: 5px; 
+}
+strong{
+  padding-left: 10px;
+  color:white;
+  background: #66fcffb9;
+  padding-right: 280px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+p{
+  color: rgb(246, 255, 0);
+  font-weight: 600;
+}
